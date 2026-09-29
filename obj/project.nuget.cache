@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bz8S5KrLgEo=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ederj\\SiteUmBlazor\\SiteUmBlazor.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ederj\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.11\\microsoft.aspnetcore.app.internal.assets.10.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

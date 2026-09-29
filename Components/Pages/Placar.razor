@@ -1,0 +1,52 @@
+@page "/placar"
+@rendermode InteractiveServer
+@using System.Diagnostics
+
+<PageTitle>Placar</PageTitle>
+
+<h1>Casa: @placar1 X Visitante: @placar2</h1>
+
+<button  @onclick="somar1">+</button>
+<button  @onclick="subtrair1">-</button>
+
+<button  @onclick="somar2">+</button>
+<button  @onclick="subtrair2">-</button>
+<button  @onclick="zerar">Zerar</button>
+
+
+@code {
+    private int placar1 = 0;
+    private int placar2 = 0;
+
+    private void somar1()
+    {
+        placar1++;
+    }
+
+    private void somar2()
+    {
+        placar2++;
+    }
+     private void subtrair1()
+    {
+        if (placar1 > 0)
+    {
+        placar1--;
+    }
+    }
+
+    private void subtrair2()
+    {
+        if (placar2 > 0)
+    {
+        placar2--;
+    }
+    }
+      private void zerar()
+    {
+        placar1 = 0;
+        placar2 = 0;
+    }
+    
+    
+}
